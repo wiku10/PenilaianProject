@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailPenilaian">
+
+
+    <TextView
+        android:id="@+id/nim"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="Nim"
+        android:textSize="24sp"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:textSize="24sp"
+        android:layout_below="@id/nim"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/nilai"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="Nilai"
+        android:textSize="24sp"
+        android:layout_below="@id/nama"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/keterangan"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="Keterangan"
+        android:textSize="24sp"
+        android:layout_below="@id/nilai"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/tv_Nim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_toRightOf="@id/nim"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/tv_Nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_toRightOf="@id/nama"
+        android:layout_below="@+id/tv_Nim"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/tv_Nilai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_toRightOf="@id/nilai"
+        android:layout_below="@+id/tv_Nama"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/tv_Keterangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_toRightOf="@id/keterangan"
+        android:layout_below="@+id/tv_Nilai"
+        android:layout_margin="5dp"/>
+
+</RelativeLayout>
